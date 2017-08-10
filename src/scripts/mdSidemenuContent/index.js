@@ -10,8 +10,8 @@ let directive = () => {
       icon: '@?mdIcon',
       svgIcon: '@?mdSvgIcon',
       arrow: '@?mdArrow',
-      visible: '=?mdOpened',
-      collapseOther: '@?collapseOther'
+      visible: '@?mdOpened',
+      collapseOther: '@?mdCollapseOther'
     },
     replace: true,
     transclude: true,

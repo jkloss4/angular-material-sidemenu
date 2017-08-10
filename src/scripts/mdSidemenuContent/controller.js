@@ -1,6 +1,5 @@
 export default function() {
-
-  this.visible = this.visible || false;
+  this.visible = false;
 
   this.changeState = function() {
     if (!this.visible && this.collapseOther){
